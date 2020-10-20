@@ -1,0 +1,16 @@
+<ul class="list">
+  <li class="list-component" *ngFor="let todo of todoList">
+    <div class="card">
+      <div class="title">
+        <a routerLink="/{{ todo.id }}">{{ todo.name }}</a>
+      </div>
+      <div class="description">
+        <p>{{ todo.description }}</p>
+      </div>
+      <div class="card-footer">
+        <span>{{ todo.author_id }}</span>
+        <button class="btn">&times;</button>
+      </div>
+    </div>
+  </li>
+</ul>

@@ -1,0 +1,21 @@
+.navbar {
+  width: 100%;
+  background-color: #ccc;
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  li {
+    background-color: aquamarine;
+    padding: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .active {
+    color: red;
+  }
+}
